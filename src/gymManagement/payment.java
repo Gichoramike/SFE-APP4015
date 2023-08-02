@@ -182,6 +182,11 @@ public class payment extends javax.swing.JFrame {
                 btnsaveMouseClicked(evt);
             }
         });
+        btnsave.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnsaveActionPerformed(evt);
+            }
+        });
         mainpanel.add(btnsave, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, -1, -1));
 
         btnReset.setBackground(new java.awt.Color(43, 43, 57));
@@ -415,6 +420,11 @@ public class payment extends javax.swing.JFrame {
         setVisible(false);
         new payment().setVisible(true);
     }//GEN-LAST:event_btnResetActionPerformed
+
+    private void btnsaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsaveActionPerformed
+        // TODO add your handling code here:
+        insertrecord();
+    }//GEN-LAST:event_btnsaveActionPerformed
 
     /**
      * @param args the command line arguments
