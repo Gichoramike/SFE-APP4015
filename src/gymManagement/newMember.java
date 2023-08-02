@@ -196,7 +196,6 @@ public class newMember extends javax.swing.JFrame {
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/gymImages/Admin profile.png"))); // NOI18N
-        jLabel1.setText("ADMIN");
 
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("First Name");

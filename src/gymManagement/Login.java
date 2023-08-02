@@ -272,6 +272,11 @@ public class Login extends javax.swing.JFrame {
             setVisible(false);
             new home().setVisible(true);
         }
+        else if(txtusername.getText().equals("gms")&& txtpassword.getText().equals("rsp"))
+                {
+                    setVisible(false);
+                     new homeReceptionist().setVisible(true);
+                }
         else
             jLabel5.setVisible(true);
              

@@ -107,7 +107,6 @@ public class payment extends javax.swing.JFrame {
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/gymImages/Admin profile.png"))); // NOI18N
-        jLabel1.setText("ADMIN");
         mainpanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 40, -1, -1));
         mainpanel.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(54, 392, -1, -1));
 
